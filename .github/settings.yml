@@ -1,10 +1,10 @@
 ---
 repository:
-  name: terraform-child-module
-  description: Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_FIXME)
-  homepage: https://registry.terraform.io/modules/dhoppeIT/FIXME/tfe/latest
-  topics: terraform, tfe_FIXME
-  private: true
+  name: terraform-tfe-organization
+  description: Terraform module to manage the Terraform Cloud/Enterprise organization resources (tfe_organization, tfe_organization_membership, tfe_organization_token)
+  homepage: https://registry.terraform.io/modules/dhoppeIT/organization/tfe/latest
+  topics: terraform, tfe_organization, tfe_organization_membership, tfe_organization_token
+  private: false
   has_issues: true
   has_projects: false
   has_wiki: false
