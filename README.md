@@ -52,10 +52,10 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_collaborator_auth_policy"></a> [collaborator\_auth\_policy](#input\_collaborator\_auth\_policy) | Authentication policy | `string` | `null` | no |
 | <a name="input_cost_estimation_enabled"></a> [cost\_estimation\_enabled](#input\_cost\_estimation\_enabled) | Whether or not the cost estimation feature is enabled for all workspaces in the organization | `string` | `null` | no |
-| <a name="input_email"></a> [email](#input\_email) | Admin email address | `string` | `null` | no |
+| <a name="input_email"></a> [email](#input\_email) | Admin email address | `string` | n/a | yes |
 | <a name="input_force_regenerate"></a> [force\_regenerate](#input\_force\_regenerate) | If set to true, a new token will be generated even if a token already exists | `bool` | `false` | no |
 | <a name="input_members"></a> [members](#input\_members) | Email of the users to add | `list(string)` | `[]` | no |
-| <a name="input_name"></a> [name](#input\_name) | Name of the organization | `string` | `null` | no |
+| <a name="input_name"></a> [name](#input\_name) | Name of the organization | `string` | n/a | yes |
 | <a name="input_owners_team_saml_role_id"></a> [owners\_team\_saml\_role\_id](#input\_owners\_team\_saml\_role\_id) | The name of the 'owners' team | `string` | `null` | no |
 | <a name="input_session_remember_minutes"></a> [session\_remember\_minutes](#input\_session\_remember\_minutes) | Session expiration | `number` | `null` | no |
 | <a name="input_session_timeout_minutes"></a> [session\_timeout\_minutes](#input\_session\_timeout\_minutes) | Session timeout after inactivity | `number` | `null` | no |
