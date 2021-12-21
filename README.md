@@ -26,13 +26,13 @@ module "tfe-organization" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | >= 0.26.1, < 1.0.0 |
+| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | >= 0.27.0, < 1.0.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | >= 0.26.1, < 1.0.0 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | >= 0.27.0, < 1.0.0 |
 
 ## Modules
 
@@ -57,6 +57,7 @@ No modules.
 | <a name="input_members"></a> [members](#input\_members) | Email of the users to add | `list(string)` | `[]` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name of the organization | `string` | n/a | yes |
 | <a name="input_owners_team_saml_role_id"></a> [owners\_team\_saml\_role\_id](#input\_owners\_team\_saml\_role\_id) | The name of the 'owners' team | `string` | `null` | no |
+| <a name="input_send_passing_statuses_for_untriggered_speculative_plans"></a> [send\_passing\_statuses\_for\_untriggered\_speculative\_plans](#input\_send\_passing\_statuses\_for\_untriggered\_speculative\_plans) | Whether or not to send VCS status updates for untriggered speculative plans | `bool` | `false` | no |
 | <a name="input_session_remember_minutes"></a> [session\_remember\_minutes](#input\_session\_remember\_minutes) | Session expiration | `number` | `null` | no |
 | <a name="input_session_timeout_minutes"></a> [session\_timeout\_minutes](#input\_session\_timeout\_minutes) | Session timeout after inactivity | `number` | `null` | no |
 
