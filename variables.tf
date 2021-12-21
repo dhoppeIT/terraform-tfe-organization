@@ -1,12 +1,10 @@
 variable "name" {
   type        = string
-  default     = null
   description = "Name of the organization"
 }
 
 variable "email" {
   type        = string
-  default     = null
   description = "Admin email address"
 }
 
