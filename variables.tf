@@ -38,6 +38,12 @@ variable "cost_estimation_enabled" {
   description = "Whether or not the cost estimation feature is enabled for all workspaces in the organization"
 }
 
+variable "send_passing_statuses_for_untriggered_speculative_plans" {
+  type        = bool
+  default     = false
+  description = "Whether or not to send VCS status updates for untriggered speculative plans"
+}
+
 variable "members" {
   type        = list(string)
   default     = []
