@@ -12,7 +12,7 @@ Terraform module to manage the Terraform Cloud/Enterprise organization resources
 Copy and paste into your Terraform configuration, insert the variables and run ```terraform init```:
 
 ```hcl
-module "tfe-organization" {
+module "tfe_organization" {
   source = "dhoppeIT/organization/tfe"
 
   name  = "dhoppeIT"
