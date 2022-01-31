@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.1](https://github.com/dhoppeIT/terraform-tfe-organization/compare/v0.3.0...v0.3.1) (2022-01-31)
+
+
+### Bug Fixes
+
+* Allow new minor releases ([#21](https://github.com/dhoppeIT/terraform-tfe-organization/issues/21)) ([8cf766a](https://github.com/dhoppeIT/terraform-tfe-organization/commit/8cf766a8364b2866add101a74568bcd24c9b49df))
+
 ## [0.3.0](https://www.github.com/dhoppeIT/terraform-tfe-organization/compare/v0.2.0...v0.3.0) (2021-12-22)
 
 
