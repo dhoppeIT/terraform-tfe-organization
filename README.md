@@ -1,7 +1,10 @@
 # terraform-tfe-organization
 
-Terraform module to manage the Terraform Cloud/Enterprise organization resources
-(tfe_organization, tfe_organization_membership, tfe_organization_token).
+Terraform module to manage the following Terraform Cloud/Enterprise resources:
+
+* tfe_organization
+* tfe_organization_membership
+* tfe_organization_token
 
 ## Graph
 
@@ -13,7 +16,8 @@ Copy and paste into your Terraform configuration, insert the variables and run `
 
 ```hcl
 module "tfe_organization" {
-  source = "dhoppeIT/organization/tfe"
+  source  = "dhoppeIT/organization/tfe"
+  version = "~> 0.1"
 
   name  = "dhoppeIT"
   email = "terraform@dhoppe.it"
@@ -32,7 +36,7 @@ module "tfe_organization" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.27.1 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.28.0 |
 
 ## Modules
 
@@ -68,6 +72,7 @@ No modules.
 | <a name="output_id"></a> [id](#output\_id) | The organization membership ID |
 | <a name="output_name"></a> [name](#output\_name) | The name of the organization |
 | <a name="output_token"></a> [token](#output\_token) | The generated token |
+| <a name="output_user_id"></a> [user\_id](#output\_user\_id) | The ID of the users associated with the organization membership |
 
 <!--- END_TF_DOCS --->
 
