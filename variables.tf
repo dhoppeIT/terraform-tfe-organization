@@ -10,19 +10,19 @@ variable "email" {
 
 variable "session_timeout_minutes" {
   type        = number
-  default     = null
+  default     = 20160
   description = "Session timeout after inactivity"
 }
 
 variable "session_remember_minutes" {
   type        = number
-  default     = null
+  default     = 20160
   description = "Session expiration"
 }
 
 variable "collaborator_auth_policy" {
   type        = string
-  default     = null
+  default     = "password"
   description = "Authentication policy"
 }
 
@@ -33,8 +33,8 @@ variable "owners_team_saml_role_id" {
 }
 
 variable "cost_estimation_enabled" {
-  type        = string
-  default     = null
+  type        = bool
+  default     = false
   description = "Whether or not the cost estimation feature is enabled for all workspaces in the organization"
 }
 
