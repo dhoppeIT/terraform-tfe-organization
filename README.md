@@ -36,7 +36,7 @@ module "tfe_organization" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.27.1 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.28.0 |
 
 ## Modules
 
@@ -72,6 +72,7 @@ No modules.
 | <a name="output_id"></a> [id](#output\_id) | The organization membership ID |
 | <a name="output_name"></a> [name](#output\_name) | The name of the organization |
 | <a name="output_token"></a> [token](#output\_token) | The generated token |
+| <a name="output_user_id"></a> [user\_id](#output\_user\_id) | The ID of the users associated with the organization membership |
 
 <!--- END_TF_DOCS --->
 
