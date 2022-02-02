@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/dhoppeIT/terraform-tfe-organization/compare/v0.3.2...v0.4.0) (2022-02-02)
+
+
+### Features
+
+* Add ID of the users associated with the organization membership as output ([#27](https://github.com/dhoppeIT/terraform-tfe-organization/issues/27)) ([460b0d1](https://github.com/dhoppeIT/terraform-tfe-organization/commit/460b0d19739c8a0426f6d01274dcdcf234e2990d))
+
 ### [0.3.2](https://github.com/dhoppeIT/terraform-tfe-organization/compare/v0.3.1...v0.3.2) (2022-02-02)
 
 
