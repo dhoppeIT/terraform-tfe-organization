@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.2](https://github.com/dhoppeIT/terraform-tfe-organization/compare/v0.3.1...v0.3.2) (2022-02-02)
+
+
+### Bug Fixes
+
+* Change default value / type for some variables ([#23](https://github.com/dhoppeIT/terraform-tfe-organization/issues/23)) ([be76f29](https://github.com/dhoppeIT/terraform-tfe-organization/commit/be76f29b1cb1d655c4148471d7bb14ed11c58905))
+
 ### [0.3.1](https://github.com/dhoppeIT/terraform-tfe-organization/compare/v0.3.0...v0.3.1) (2022-01-31)
 
 
