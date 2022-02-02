@@ -1,7 +1,10 @@
 # terraform-tfe-organization
 
-Terraform module to manage the Terraform Cloud/Enterprise organization resources
-(tfe_organization, tfe_organization_membership, tfe_organization_token).
+Terraform module to manage the following Terraform Cloud/Enterprise resources:
+
+* tfe_organization
+* tfe_organization_membership
+* tfe_organization_token
 
 ## Graph
 
@@ -13,7 +16,8 @@ Copy and paste into your Terraform configuration, insert the variables and run `
 
 ```hcl
 module "tfe_organization" {
-  source = "dhoppeIT/organization/tfe"
+  source  = "dhoppeIT/organization/tfe"
+  version = "~> 0.1"
 
   name  = "dhoppeIT"
   email = "terraform@dhoppe.it"
