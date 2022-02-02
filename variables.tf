@@ -33,8 +33,8 @@ variable "owners_team_saml_role_id" {
 }
 
 variable "cost_estimation_enabled" {
-  type        = string
-  default     = null
+  type        = bool
+  default     = false
   description = "Whether or not the cost estimation feature is enabled for all workspaces in the organization"
 }
 
