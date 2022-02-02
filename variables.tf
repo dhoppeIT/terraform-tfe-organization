@@ -10,19 +10,19 @@ variable "email" {
 
 variable "session_timeout_minutes" {
   type        = number
-  default     = null
+  default     = 20160
   description = "Session timeout after inactivity"
 }
 
 variable "session_remember_minutes" {
   type        = number
-  default     = null
+  default     = 20160
   description = "Session expiration"
 }
 
 variable "collaborator_auth_policy" {
   type        = string
-  default     = null
+  default     = "password"
   description = "Authentication policy"
 }
 
