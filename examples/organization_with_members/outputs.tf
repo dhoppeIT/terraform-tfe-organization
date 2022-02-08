@@ -9,7 +9,7 @@ output "organization_membership_id" {
 }
 
 output "organization_membership_user_id" {
-  value       = try(module.tfe_organization.user_id, null)
+  value       = module.tfe_organization.user_id
   description = "The ID of the users associated with the organization membership"
 }
 
