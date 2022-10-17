@@ -55,7 +55,6 @@ No resources.
 | <a name="output_organization_name"></a> [organization\_name](#output\_organization\_name) | The name of the organization |
 | <a name="output_organization_token_id"></a> [organization\_token\_id](#output\_organization\_token\_id) | The generated token |
 | <a name="output_organization_token_token"></a> [organization\_token\_token](#output\_organization\_token\_token) | The generated token |
-
 <!-- END_TF_DOCS -->
 
 ## Authors
