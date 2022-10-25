@@ -36,7 +36,7 @@ module "tfe_organization" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.37.0 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.38.0 |
 
 ## Modules
 
